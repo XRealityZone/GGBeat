@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c86d4b29846e86845a7ef4a3254f3282
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206987
+  packageName: The Realtime Rascals Face Capture Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/RealtimeRascals_Facetracking/Shanks_Frog/Animators/FrogAnimationController.controller
+  uploadId: 463232

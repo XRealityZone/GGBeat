@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/ProjectLauncher.unity
+    guid: 9fd4465776aa84333a9eeadd2f01f7e7
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/BalloonGallery.unity
+    guid: 310f940cd59e2499a95e8832b9576c37
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/Billboard.unity
+    guid: 73c8309ab00b141aa86b913f73f4edf6
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/Blendshapes.unity
+    guid: 9c24034cc3c8a4c6f9245487e8bde4b9
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/CharacterWalker.unity
+    guid: f4e70070a5e1444dbb1bc2fe95a6501b
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/HoverComponent.unity
+    guid: 8623bb99f0faa46c08f9aa88a540d8d9
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/InputDataVisualization.unity
+    guid: df242f16d686c4d448ed55ee294c9961
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/Lighting.unity
+    guid: de87835529f8c4e9d870b1a273fd0fe4
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/Manipulation.unity
+    guid: 9762552de5dc34fe6ac9845b29d550e9
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/Manipulation_XRI.unity
+    guid: e28e394dd35864943b9f0692d0b00820
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/Meshing.unity
+    guid: 3d9f958e53c2242d4aa9e41a7e486514
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/MixedReality.unity
+    guid: fca4eb5a8bd2a462a92cdd9dbbfce6ad
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/Particles.unity
+    guid: e9216ddc8db254a25b0d68b4f6d568ad
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/Portal.unity
+    guid: a6376e08b5b5f46b79d8a80a29728151
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/ResizeVolume.unity
+    guid: 7ad5c758321484a1686f5cff9ee75985
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/SpatialUI.unity
+    guid: ca120ac33070c4c478b59e052006f7b9
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/SwiftUI.unity
+    guid: ab5c9fad78fd1451192f840ecabba898
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/UGUI.unity
+    guid: ad06f50cdee2547fdac38cfcaaca4022
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/XRIDebug.unity
+    guid: 44e8ac0e982a84782a2d7216e38a6fb1
+  - enabled: 1
+    path: Assets/Scenes/0-PolySpatial-Scenes/ImageTracking.unity
+    guid: 20aa204cc29e54b1c862af8000170f2e
+  - enabled: 1
+    path: Assets/Scenes/0-SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/0-SampleSceneUnbounded.unity
+    guid: d49e913a117634cdd953337ffbb2080c
+  m_configObjects:
+    UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 25e1f68848051c946b9048e8426e646c, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: bb65518a4a80049acbc5e85e70dbbee0, type: 2}
+    com.unity.polyspatial.xr.xr_settings: {fileID: 11400000, guid: cad8e6c3a14b3491eb1cdeb9295338f7, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d1b44b12dbc12554c862e577406554bd, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 91384b14c79fa804d924648a4e81b07c, type: 2}
+  m_UseUCBPForAssetBundles: 0
