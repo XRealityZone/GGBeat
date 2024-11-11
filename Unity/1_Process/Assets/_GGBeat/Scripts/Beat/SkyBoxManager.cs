@@ -94,13 +94,14 @@ public class SkyBoxManager : MonoBehaviour
 
     public void UpdateSkyboxMaterial(Material material)
     {
+
         if (skybox != null)
         {
-            skybox.GetComponent<MeshRenderer>().material = material;
+            skybox.GetComponentInChildren<MeshRenderer>().material = material;
         }
         if (portal != null)
         {
-            portal.GetComponent<MeshRenderer>().material = material;
+            portal.GetNamedChild("CutSphere").GetComponent<MeshRenderer>().material = material;
         }
     }
 }
