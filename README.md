@@ -8,10 +8,13 @@ An Apple Vision Pro sample application similar to [BeatSaber](https://beatsaber.
 
 Currently, the basic logic of the native version and the Unity version is similar, but there are some differences in details.
 
-| Native                                                       | Unity |
-| ------------------------------------------------------------ | ----- |
-| https://github.com/user-attachments/assets/0d3dfaf7-7972-4571-9f2e-436f4b247465 |   https://github.com/user-attachments/assets/080e5fc3-3241-4494-a98e-1218e403ffa0    |
+Native：
 
+https://github.com/user-attachments/assets/0d3dfaf7-7972-4571-9f2e-436f4b247465
+
+Unity：
+
+https://github.com/user-attachments/assets/080e5fc3-3241-4494-a98e-1218e403ffa0
 
 ## How to Use This Project
 

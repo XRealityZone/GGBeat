@@ -1,6 +1,6 @@
 # GGBeat
 
-
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/3849119d-9e50-4306-873f-412bd36cd03c">
 
 一个类似 [BeatSaber](https://beatsaber.com/) 的 Apple Vision Pro 实例应用。该应用有两个版本，分别基于原生（Native 文件夹）和 Unity（Unity 文件夹）
 
@@ -8,9 +8,13 @@
 
 目前原生版本和 Unity 版本实现的基本逻辑类似，但在一些细节会有些许区别。
 
-| 原生                                                         | Unity |
-| ------------------------------------------------------------ | ----- |
-| https://github.com/user-attachments/assets/0d3dfaf7-7972-4571-9f2e-436f4b247465 |       |
+原生版本：
+
+https://github.com/user-attachments/assets/0d3dfaf7-7972-4571-9f2e-436f4b247465
+
+Unity 版本：
+
+https://github.com/user-attachments/assets/080e5fc3-3241-4494-a98e-1218e403ffa0
 
 ## 如何使用本项目
 
