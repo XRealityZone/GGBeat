@@ -2,6 +2,7 @@
   "dependencies": {
     "com.unity.collab-proxy": "2.5.2",
     "com.unity.feature.development": "1.0.2",
+    "com.unity.ide.cursor": "https://github.com/boxqkrtm/com.unity.ide.cursor.git",
     "com.unity.learn.iet-framework": "4.0.2",
     "com.unity.polyspatial": "2.0.4",
     "com.unity.polyspatial.visionos": "2.0.4",
