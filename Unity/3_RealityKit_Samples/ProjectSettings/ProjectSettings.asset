@@ -164,7 +164,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    VisionOS: com.DefaultCompany.PolySpatial-Project-Template
+    VisionOS: com.SwiftGG.RealityKitSamples
     iPhone: com.DefaultCompany.PolySpatial-Project-Template
   buildNumber:
     Standalone: 0
@@ -195,7 +195,7 @@ PlayerSettings:
   tvOSSimulatorArchitecture: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 13.0
-  VisionOSSdkVersion: 0
+  VisionOSSdkVersion: 1
   VisionOSTargetOSVersionString: 1.0
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
