@@ -1,0 +1,46 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (448.0.7.508.1)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "LeftGlove" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (3.0203222e-7, 0, -3.1415925)
+        }
+        references = @Model/Left.usdz@
+    )
+    {
+        quatf xformOp:orient = (-7.54979e-8, -1.14014e-14, 1.5101611e-7, 1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "Collider"
+        {
+            uint group = 1
+            uniform token info:id = "RealityKit.Collider"
+            uint mask = 4294967295
+            token type = "Default"
+
+            def RealityKitStruct "Shape"
+            {
+                float3 extent = (0.2628126, 0.16447987, 0.16726507)
+                float radius = 0.1314063
+                token shapeType = "Sphere"
+
+                def RealityKitStruct "pose"
+                {
+                    float3 position = (0.0029020905, -0.0040735602, -0.009446897)
+                }
+            }
+        }
+    }
+}
+
