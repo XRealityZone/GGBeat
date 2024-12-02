@@ -20,7 +20,8 @@ https://github.com/user-attachments/assets/080e5fc3-3241-4494-a98e-1218e403ffa0
 
 ### Native
 
-TBD
+1. Open Native Folder
+2. The code is organized from step 1-9, follow the step to learn.
 
 ### Unity
 
