@@ -16,7 +16,7 @@ MonoBehaviour:
   m_HandsTrackingUsageDescription: Hand tracking required for interaction
   m_WorldSensingUsageDescription: World sensing required for plane detection
   m_RuntimeSettings: {fileID: 11400000, guid: ac517bd71f33e472fa5c25448bc7a703, type: 2}
-  m_UpperLimbVisibility: 1
+  m_UpperLimbVisibility: 2
   m_FoveatedRendering: 1
   m_MetalImmersionStyle: 0
   m_RealityKitImmersionStyle: 0

@@ -61,7 +61,7 @@ public class BeatGame : MonoBehaviour
 
     private void Start()
     {
-        // TOOD: initialize XR and hand tracking
+        InitializeXRAndHandTracking();
         initialCameraTransform = CloneTransform(xrOrigin.Camera.transform);
         initialCameraTransform.rotation = Quaternion.Euler(0, initialCameraTransform.rotation.eulerAngles.y, 0);
         LoadBeatMapData((int)AppManager.Instance.songType);
@@ -71,7 +71,7 @@ public class BeatGame : MonoBehaviour
 
     private void Update()
     {
-        // TODO: update hand positions
+        UpdateHandPositions();
         CheckGameStart();
     }
 
