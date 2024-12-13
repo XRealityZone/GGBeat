@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal: {fileID: 747443729}
-  skybox: {fileID: 0}
+  skybox: {fileID: 1266687000}
   trackedPlane: {fileID: 0}
   isTracking: 1
   xrOrigin: {fileID: 0}
@@ -690,6 +690,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c357fce163c94c7d82f027ece44ecf5, type: 3}
+--- !u!1 &1266687000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8776423700923342587, guid: 0c357fce163c94c7d82f027ece44ecf5, type: 3}
+  m_PrefabInstance: {fileID: 1266686999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1540219785
 PrefabInstance:
   m_ObjectHideFlags: 0
