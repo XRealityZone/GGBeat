@@ -40,7 +40,10 @@ namespace GGBeat
 #if UNITY_VISIONOS && !UNITY_EDITOR
         [DllImport("__Internal")]
         public static extern void SetSwiftNativeCallback(SwiftNativeCallbackType callback);
-        // TODO: implement native callback
+        [DllImport("__Internal")]
+        public static extern void OpenNativeWindow(string name);
+        [DllImport("__Internal")]
+        public static extern void CloseNativeWindow(string name);
 #else
         public static void SetSwiftNativeCallback(SwiftNativeCallbackType callback)
         {

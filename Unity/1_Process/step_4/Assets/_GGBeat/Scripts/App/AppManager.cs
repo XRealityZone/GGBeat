@@ -51,12 +51,12 @@ namespace GGBeat
 
     private void OpenNativeWindow(string name)
     {
-      // TODO: implement native callback
+      SwiftUIPlugin.OpenNativeWindow(name);
     }
 
     private void CloseNativeWindow(string name)
     {
-      // TODO: implement native callback
+      SwiftUIPlugin.CloseNativeWindow(name);
     }
 
     public void OpenMainMenu()
