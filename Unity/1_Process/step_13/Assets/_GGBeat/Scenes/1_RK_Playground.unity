@@ -788,6 +788,91 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1857933243
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7040219251781997443, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7040219251781997443, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7040219251781997443, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 373172870}
+    - target: {fileID: 7040219251781997443, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7040219251781997443, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleSkyboxAndPortal
+      objectReference: {fileID: 0}
+    - target: {fileID: 7040219251781997443, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SkyBoxManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7040219251781997443, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.803
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.135
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676770887479853062, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986625382706438035, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
+      propertyPath: m_Name
+      value: Push Button
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f12ad85b205d4159aa5842965a20980, type: 3}
 --- !u!1 &1878612993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,3 +1138,4 @@ SceneRoots:
   - {fileID: 747443728}
   - {fileID: 2093708394}
   - {fileID: 1540219785}
+  - {fileID: 1857933243}
