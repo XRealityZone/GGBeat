@@ -51,7 +51,7 @@ var swiftNativeCallback: SwiftNativeCallbackType? = nil
 // Declared in C# as: static extern void SetNativeCallback(CallbackDelegate callback);
 @_cdecl("SetSwiftNativeCallback")
 func SetSwiftNativeCallback(_ delegate: SwiftNativeCallbackType) {
-    // TODO: response to the call.
+    swiftNativeCallback = delegate
 }
 
 // This is a function for your own use from the enclosing Unity-VisionOS app, to call the delegate
@@ -63,7 +63,7 @@ public func callCSharp(command: String, argsJson: String) {
 
     command.withCString { commandPtr in
         argsJson.withCString { argsJsonPtr in
-            // TODO: call the callback
+            swiftNativeCallback?(commandPtr, argsJsonPtr)
         }
     }
 }
