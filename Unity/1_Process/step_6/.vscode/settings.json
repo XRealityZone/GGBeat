@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "step_5.sln"
+    "dotnet.defaultSolution": "step_6.sln"
 }
