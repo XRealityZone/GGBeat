@@ -17,7 +17,7 @@ MonoBehaviour:
   m_ColliderSyncLayerMask:
     serializedVersion: 2
     m_Bits: 1
-  m_ParticleMode: 0
+  m_ParticleMode: 1
   m_DefaultVisionOSLighting: 0
   m_DefaultVisionOSShadowBiasOffset: 0.95
   m_DefaultVisionOSDirectionalShadowMaxDistance: 5
