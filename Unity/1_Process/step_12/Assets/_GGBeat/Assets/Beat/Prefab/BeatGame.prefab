@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3512712757418787635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9069726974841941257}
+  - component: {fileID: 2054798129924174651}
+  m_Layer: 0
+  m_Name: BeatGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9069726974841941257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512712757418787635}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2054798129924174651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512712757418787635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda6914ed433340e0ad8a873192fb5ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skyboxMaterials:
+  - {fileID: 2100000, guid: a993eb1acd2f340ca8d0021d19fdc0de, type: 2}
+  - {fileID: 2100000, guid: d4bb0accad4d5486a8584ef36b982486, type: 2}
+  - {fileID: 2100000, guid: ff42aa7617f4c48c7a2f8cc0ce019965, type: 2}
+  beatMapJsons:
+  - {fileID: 4900000, guid: 1a642e680df744e94b28ec8062d56fa8, type: 3}
+  - {fileID: 4900000, guid: 63e88efa7d4d84b6081c2c6784356bd0, type: 3}
+  - {fileID: 4900000, guid: 7198464ec32a6405d8a6bfa71289317f, type: 3}
+  backgroundMusics:
+  - {fileID: 8300000, guid: 9f2d7dd7cbbfd4ffb90f5454dc421f01, type: 3}
+  - {fileID: 8300000, guid: 07f3df47e21b2434a980202c8afc73b3, type: 3}
+  - {fileID: 8300000, guid: 0828901fbee054f4ebbd465c08ad7c30, type: 3}
+  boxPrefab: {fileID: 7131358447078083687, guid: 38531df0931554fcf9444cef7fe4a342, type: 3}
+  spawnDistance: 6
+  moveDuration: 3
+  waitARPlaneDuration: 3
+  leftHandVisual: {fileID: 0}
+  rightHandVisual: {fileID: 0}
+  skyBoxManager: {fileID: 0}
+  xrOrigin: {fileID: 0}
