@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33acc3b6f04fc124fa646203f42ed25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Dimensions: {x: 0.4, y: 0.4, z: 0.2}
+  m_Dimensions: {x: 0.4, y: 0.4, z: 0.4}
   m_ScaleWithWindow: 1
   m_IsUniformScale: 0
   m_OutputConfiguration: {fileID: 11400000, guid: 2a1cdecacb085497183018ecffe14621, type: 2}
