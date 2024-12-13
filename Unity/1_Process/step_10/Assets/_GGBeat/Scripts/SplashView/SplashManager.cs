@@ -6,6 +6,7 @@ using TouchPhase = UnityEngine.InputSystem.TouchPhase;
 using Unity.PolySpatial.InputDevices;
 using UnityEngine.InputSystem.LowLevel;
 using System;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 namespace GGBeat
 {
@@ -21,8 +22,6 @@ namespace GGBeat
         void Start()
         {
             SetupTransition();
-            OpenMainMenuAfterTwoSeconds();
-            // TODO: response to bird tap
         }
 
         private void SetupTransition()
@@ -57,12 +56,12 @@ namespace GGBeat
 
         void OnEnable()
         {
-            // TODO: ready to use touch input
+            EnhancedTouchSupport.Enable();
         }
 
         void Update()
         {
-            // TODO: ready to check bird tap
+            CheckBirdTap();
         }
 
         private void CheckBirdTap()
