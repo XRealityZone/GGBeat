@@ -306,7 +306,7 @@ MonoBehaviour:
   skybox: {fileID: 813116241}
   trackedPlane: {fileID: 0}
   isTracking: 1
-  xrOrigin: {fileID: 0}
+  xrOrigin: {fileID: 1196502613}
   isPlayPortalAnimationOnStart: 1
 --- !u!1 &676957459
 GameObject:
@@ -582,19 +582,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8812757047620949293, guid: 91de5939c912f48deb25c26ca7cac49a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1196502615}
   m_SourcePrefab: {fileID: 100100000, guid: 91de5939c912f48deb25c26ca7cac49a, type: 3}
 --- !u!114 &1196502613 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4417838284592617274, guid: 91de5939c912f48deb25c26ca7cac49a, type: 3}
   m_PrefabInstance: {fileID: 1196502612}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1196502614}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1196502614 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8812757047620949293, guid: 91de5939c912f48deb25c26ca7cac49a, type: 3}
+  m_PrefabInstance: {fileID: 1196502612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1196502615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196502614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 373172870}
+        m_TargetAssemblyTypeName: SkyBoxManager, Assembly-CSharp
+        m_MethodName: OnPlanesChanged
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_PlanePrefab: {fileID: 7416251027376655228, guid: d88bfebdc89e549a98c182b2422991ed, type: 3}
+  m_DetectionMode: -1
 --- !u!1 &1210746480
 GameObject:
   m_ObjectHideFlags: 0
